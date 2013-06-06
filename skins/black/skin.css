@@ -1,30 +1,30 @@
-#player,#player a{ color:#fff; }
-#player{ background:url(sizerAndVol.png); background-position:bottom; }
-#player .mainImage{ background:url(main.png); }
+#player,#player a{ color:#COR DO TEXTO;  font-size: 11px; font-family: verdana;}
+#player{ background:url(http://static.tumblr.com/hmzzrtf/y6dmho2hs/434kmlongedevoce.png); background-position:bottom; background-color: #COR DO BG DO PLAYER;}
+#player .mainImage{ background:url(http://static.tumblr.com/hmzzrtf/ea7mho2gs/basebranca.png); }
 
 #player #baseLeft{ width:93px; }
 #player #baseRight{ width:145px;}
 #player .button{  width:26px; }
-#player #play{ background:url(playBtn.png); }
+#player #play{ background:url(http://static.tumblr.com/hmzzrtf/NkTmho2hb/xxcvfxgff.jpg); }
 #player #play,#player #pause{ left:26px; }
 #player #previous{ left:0px; }
 #player #next{ left:52px; }
-#player #title{ left:90px;  }
+#player #title{ left:90px;  font-size: 9px; }
 #player #tooltip{ right:196px; }
 #player #timer{ right:120px;  }
 #player #list{ right:0px; }
 
 #player #seeker{ right:320px; }
-#player #seekerBase{ border-color:#ccc;  }
-#player #seekerBuffered{ background-color:#4b575d; }
-#player #seekerSliderBase{ background-color:#ccc; }
+#player #seekerBase{ border-color:#COR DA BORDA;  }
+#player #seekerBuffered{ background-color:#COR DO FUNDO DO CARREGAMENTO DA MUSICA; }
+#player #seekerSliderBase{ background-color:#COR DO QUADRADO QUE ACONPANHA A MUSICA; }
 
 #player #volume{ width:65px; right:39px; }
-#player #volumeSlider{ width:8px; background:url(sizerAndVol.png); }
+#player #volumeSlider{ width:8px; background:url(); }
 
-#playlist,#playlist .module,#playlist h3{ border-color:#333;}
-#playlist .module{  color:#333; background-color:#eee; }
-#playlist h3{ background:url(bar.jpg); color:#fff; background-color:#333;  }
-#playlist .even{background-color:#eee;}
-#playlist .odd{ background-color:#ddd;}
-#playlist .focus{ background-color:#666; color:#FFF;}
+#playlist,#playlist .module,#playlist h3{ border-color:#BORDA DA PLAYLIST;}
+#playlist .module{  color:#COR DA FONT DA PLAY; background-color:#COR DO BG; }
+#playlist h3{ background:url(http://dl.dropbox.com/u/58708531/bar2.jpg); color:#COR DA FONTE; background-color:#COR DO BG;  }
+#playlist .even{background-color:#fff;}
+#playlist .odd{ background-color:#fff;}
+#playlist .focus{ background-color:#fff; color:#aaa;}
